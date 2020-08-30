@@ -11,3 +11,5 @@ Saves a lot of time when pushing images to a registry:
   * Submit the images and wait for the process to complete.
   
 <img src="https://i.imgur.com/mu2a05J.png" alt="pushon"/>
+
+docker run -d --restart always -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 --name pushon -it pushon:latest
