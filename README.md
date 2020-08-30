@@ -1,5 +1,6 @@
 # Pushon
 A web app I wrote to push multiple Docker images simultaneously to a specified registry.
+Written using Go and JavaScript.
 Saves a lot of time when pushing images to a registry:
 * Without Pushon:
   * Upload images to a remote server with Docker installed.
